@@ -117,12 +117,3 @@ rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-
 
 • White Label
 
-
-
-
-
-
-------------
-**Telegram**
-------------
-[Senovpn](https://t.me/senovpn)
