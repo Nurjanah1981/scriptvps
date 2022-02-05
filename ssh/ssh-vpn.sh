@@ -24,6 +24,8 @@ akbarvpnnn="raw.githubusercontent.com/Nurjanah1981/scriptvps/main/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
 akbarvpnnnn="raw.githubusercontent.com/Nurjanah1981/scriptvps/main/stunnel5"
+# Link Hosting Kalian Untuk menu
+akbarvpnnnnn="raw.githubusercontent.com/Nurjanah1981/scriptvps/main/menu"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -435,37 +437,40 @@ wget -O renewtrgo "https://${akbarvpnnn}/renewtrgo.sh"
 wget -O cektrgo "https://${akbarvpnnn}/cektrgo.sh"
 wget -O portsshnontls "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/websocket/portsshnontls.sh"
 wget -O portsshws "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/websocket/portsshws.sh"
-
-wget -O sshovpnmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/sshovpn.sh"
-wget -O l2tpmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/l2tpmenu.sh"
-wget -O pptpmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/pptpmenu.sh"
-wget -O sstpmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/sstpmenu.sh"
-wget -O wgmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/wgmenu.sh"
-wget -O ssmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/ssmenu.sh"
-wget -O ssrmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/ssrmenu.sh"
-wget -O vmessmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/vmessmenu.sh"
-wget -O vlessmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/vlessmenu.sh"
-wget -O trmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/trmenu.sh"
-wget -O trgomenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/trgomenu.sh"
-wget -O setmenu "https://raw.githubusercontent.com/Nurjanah1981/scriptvps/main/update/setmenu.sh"
-
-
+wget -O menu-backup "https://${akbarvpnnnnn}/menu-backup.sh"
+wget -O menu-domain "https://${akbarvpnnnnn}/menu-domain.sh"
+wget -O menu-l2tp "https://${akbarvpnnnnn}/menu-l2tp.sh"
+wget -O menu "https://${akbarvpnnnnn}/menu.sh"
+wget -O menu-pptp "https://${akbarvpnnnnn}/menu-pptp.sh"
+wget -O menu-shadowsocks "https://${akbarvpnnnnn}/menu-shadowsocks.sh"
+wget -O menu-ssh "https://${akbarvpnnnnn}/menu-ssh.sh"
+wget -O menu-sstp "https://${akbarvpnnnnn}/menu-sstp.sh"
+wget -O menu-tools "https://${akbarvpnnnnn}/menu-tools.sh"
+wget -O menu-trial "https://${akbarvpnnnnn}/menu-trial.sh"
+wget -O menu-trojan "https://${akbarvpnnnnn}/menu-trojan.sh"
+wget -O menu-v2ray "https://${akbarvpnnnnn}/menu-v2ray.sh"
+wget -O menu-vpn "https://${akbarvpnnnnn}/menu-vpn.sh"
+wget -O menu-wireguard "https://${akbarvpnnnnn}/menu-wireguard.sh"
+wget -O status "https://${akbarvpnnnnn}/status.sh"
+wget -O running "https://${akbarvpnnnnn}/running.sh"
+chmod +x status
+chmod +x running
+chmod +x menu-backup
+chmod +x menu-domain
+chmod +x menu-l2tp
+chmod +x menu
+chmod +x menu-pptp
+chmod +x menu-shadowsocks
+chmod +x menu-ssh
+chmod +x menu-sstp
+chmod +x menu-tools
+chmod +x menu-trial
+chmod +x menu-trojan
+chmod +x menu-v2ray
+chmod +x menu-vpn
+chmod +x menu-wireguard
 chmod +x portsshnontls
 chmod +x portsshws
-
-chmod +x sshovpnmenu
-chmod +x l2tpmenu
-chmod +x pptpmenu
-chmod +x sstpmenu
-chmod +x wgmenu
-chmod +x ssmenu
-chmod +x ssrmenu
-chmod +x vmessmenu
-chmod +x vlessmenu
-chmod +x trmenu
-chmod +x trgomenu
-chmod +x setmenu
-
 chmod +x addhost
 chmod +x menu
 chmod +x addssh
